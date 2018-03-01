@@ -1,6 +1,8 @@
 package src.wigglesort;
 
-/*
+import src.tag.ThreePointers;
+
+/* @ThreePointers
  * Leetcode: 75 Sort Colors
  *three pointers left mid right
  *mid left start at 0 and right start at length
@@ -9,6 +11,7 @@ package src.wigglesort;
  * when mid == 2 swap mid and right and make right move to back
  *make sure left always 0 right always 2 and mid always 1
  * */
+@ThreePointers
 public class SortColors {
     public void sortColors(int[] nums) {
         int left = 0;
