@@ -1,5 +1,7 @@
 package src.google;
 
+import src.tag.TwoPointer;
+
 /*
 * Leetcode: 31 next permutation
 *Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
@@ -14,6 +16,7 @@ package src.google;
 * so iterate from the end to find that one if not found means it already sort with ascending order just reverse the entire array
 *
 * */
+@TwoPointer
 public class NextPermutation {
 
     public void nextPermutation(int[] nums) {
