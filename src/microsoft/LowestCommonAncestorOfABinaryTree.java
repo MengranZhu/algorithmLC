@@ -8,7 +8,7 @@ import src.tag.BinaryTree;
  * tree postOrder traversal
  *first left and right and root
  * if find left and also find right return the root is the common root
- *
+ *Time O(n)
  *
  * */
 @BinaryTree
