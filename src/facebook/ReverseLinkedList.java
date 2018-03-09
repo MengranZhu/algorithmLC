@@ -10,7 +10,9 @@ package src.facebook;
  * */
 
 import src.commonstructure.ListNode;
+import src.tag.LinkedList;
 
+@LinkedList
 public class ReverseLinkedList {
     public ListNode reverseList(ListNode head) {
         ListNode pre = null;
