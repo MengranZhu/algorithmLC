@@ -10,7 +10,9 @@ package src.microsoft;
  * */
 
 import src.commonstructure.TreeNode;
+import src.tag.DFS;
 
+@DFS
 public class PathSum {
     public boolean hasPathSum(TreeNode root, int sum) {
         return helper(root, sum);
