@@ -8,7 +8,9 @@ package src.microsoft;
  * */
 
 import src.commonstructure.TreeNode;
+import src.tag.BinaryTree;
 
+@BinaryTree
 public class InorderSuccessorInBST {
     public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
         TreeNode res = null;
